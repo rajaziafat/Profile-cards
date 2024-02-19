@@ -10,7 +10,7 @@ function Card({ name, imageUrl, role, location }) {
 
             <hr className="border-l border-solid h-12 " />
 
-            <div className="font-medium  leading-[16px]">
+            <div className="font-[400]  leading-[16px]">
                 <h1 className=" text-[0.9rem]">{name}</h1>
                 <p className="text-[0.9rem] text-gray-500 dark:text-gray-400">
                     {role}
