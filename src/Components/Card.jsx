@@ -5,7 +5,7 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 function Card({ name, imageUrl, role, location }) {
     return (
-        <div className="relative mt-5  backdrop-blur-lg bg-white bg-opacity-10 rounded-xl border border-white border-opacity-20">
+        <div className="relative min-w-[320px] mt-5  backdrop-blur-lg bg-white bg-opacity-10 rounded-xl border border-white border-opacity-20">
         <div className="absolute top-0 right-2 ">
             <FontAwesomeIcon icon={faTimes} className="text-white cursor-pointer py-2" />
         </div>
