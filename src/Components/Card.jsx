@@ -3,7 +3,7 @@ function Card({ name, imageUrl, role, location }) {
     return (
         <div className="flex items-center gap-4 mt-5 ">
             <img
-                className="w-18 h-18 rounded-full"
+                className="max-w-[100px] max-h-[100px] rounded-full"
                 src={imageUrl}
                 alt=""
             />
