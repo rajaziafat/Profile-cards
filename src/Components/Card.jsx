@@ -10,16 +10,17 @@ function Card({ name, imageUrl, role, location }) {
 
             <hr className="border-l border-solid h-12 " />
 
-            <div className="font-medium text-xl sm:text-xl">
-                <div className=" text-base text-[0.9rem]">{name}</div>
-                <div className="text-base text-[0.9rem] text-gray-500 dark:text-gray-400">
+            <div className="font-medium  leading-[20px]">
+                <h1 className=" text-[0.9rem]">{name}</h1>
+                <p className="text-[0.9rem] text-gray-500 dark:text-gray-400">
                     {role}
-                </div>
-                <div className="text-base text-[0.9rem] text-gray-500 dark:text-gray-400">
+                </p>
+                <p className=" text-[0.9rem] text-gray-500 dark:text-gray-400">
                     {location}
-                </div>
+                </p>
                 <hr className="font-bold mt-2 " />
             </div>
+
         </div>
     );
 }
